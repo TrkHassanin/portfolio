@@ -300,3 +300,72 @@ section{
     margin-right: 100px;
     margin-top: 10px;    
 }
+
+@media (max-width:1023px){
+    header{
+        padding: 10px 12px;        
+    }
+
+    .navigation a{
+        padding-left: 10px;       
+    }
+
+    .title{
+        font-size: 2em;
+    }
+    
+    .main_section{
+        padding: 80px 20px;
+    }
+
+    .main_section h2 {
+        font-size: 1em;
+    }
+    
+    
+    .main_section h2 span{
+        font-size: 5em;
+        letter-spacing: 3px;
+    }
+
+    .main_section h3{
+        font-size: 2.2em;
+        letter-spacing: 2px;
+    }
+    .content{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+}
+
+@media (max-width:580px){
+    header{
+        padding: 10px 12px;        
+    }
+
+    .navigation a{
+        padding-left: 10px;       
+    }
+
+    .title{
+        font-size: 1.8;
+    }
+
+    .main_section h2 {
+        font-size: 0.8em;
+    }
+    
+    
+    .main_section h2 span{
+        font-size: 4em;
+        letter-spacing: 3px;
+    }
+
+    .main_section h3{
+        font-size: 2em;
+        letter-spacing: 2px;
+    }
+
+
+}
