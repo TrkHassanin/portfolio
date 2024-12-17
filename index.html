@@ -3,10 +3,201 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to my portfolio</title>
+    <title>Tarek Refaat</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-    
+    <!-- nav-bar -->
+    <header>
+        <a href="index.html" class="logo">tarek</a>
+        <nav class="navigation">
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact_me">Contact me</a>
+        </nav>
+    </header>
+
+      <!-- section 1 - main section  -->
+    <section class="main_section">
+        <div>
+            <h2>Hi, my name is<br><span>Tarek Refaat.</span></h2>
+            <h3>I build awesome websites</h3>
+            <p>I am a web developer specializing in Web Development using Python,I Love Designing and creating websites with a keen eye for enhancing user experience and interaction.</p>
+            <div class="social_media_icons">
+                <a href="https://www.linkedin.com/in/tarek-refaat-9699122a7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/TrkHassanin"><i class="fa-brands fa-square-github"></i></a>
+                <a href="whats"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+            <a href="#projects" id="main_btn">Check out my work!</a>
+        </div>
+    </section>
+
+    <!-- section 2 - services -->
+    <section class="services_cards" id="services">
+        <h2 class="section_title">Services</h2>
+        <div class="content">
+            <!-- card 1 - service 1 -->
+            <div class="card">
+                <!-- service_1 icon -->
+                <div class="service_icon"><i class="fa-solid fa-code" ></i></div>
+                <!-- service_1 name -->
+                <h3 class="service_name">Front-end Development</h3>
+                <!-- service_1 description -->
+                <ul class="service_description">
+                    <li>Building custom-coded HTML, CSS, JS and ReactJS sites from scratch.</li>
+                    <li>Shopify website customizations and edits.</li>
+                    <li>Developing Wordpress websites.</li>
+                    <li>Making animations and all kind of frontend edits on websites.</li>
+                </ul>
+            </div>
+
+            <!-- card 2 - service 2 -->
+            <div class="card">
+                <!-- service_2 icon -->
+                <div class="service_icon"><i class="fa-solid fa-square-binary"></i></div>
+                <!-- service_2 name -->
+                <h3 class="service_name">Back-end Development</h3>
+                <!-- service_2 description -->
+                <ul class="service_description">
+                    <li>Developing and maintaining backend services using Python</li>
+                    <li>integrates with frontend technologies, and ensures smooth data flow and API integration.</li>
+                    <li>Integrating applications with third-party web services</li>
+                    <li>Ensuring high-end performance and scalability</li>
+                </ul>
+            </div>
+
+            
+
+            <!-- card 3 - service 3 -->
+            <div class="card">
+                <!-- service_3 icon -->
+                <div class="service_icon"><i class="fa-solid fa-database"></i></div>
+                <!-- service_3 name -->
+                <h3 class="service_name">Database Design</h3>
+                <!-- service_3 description -->
+                <ul class="service_description">
+                    <li>creating a robust, scalable, and maintainable database design that meets the needs of your organization.</li>
+                    <li>transforming the requirements gathered during the analysis phase into a technical design.</li>
+                </ul>
+            </div>
+        </div>      
+    </section>
+
+
+    <!-- section 3 -->
+    <section class="projects_cards" id="projects">
+        <h2 class="section_title">Projects</h2>
+        <div class="content">
+            <!-- first Project -->
+            <div class="project_card">
+                <div class="project_img">
+                    <img src="Projects/hospital landing page.png" alt="hospital landing page project">
+                </div>
+                <div class="project_info">
+                    <p class="project_name">Hospital Landing Page</p>
+                    <strong class="project_category">
+                        <span>Landing Page</span>
+                        <a href="#" class="project_more_info">More info</a>
+                    </strong>
+                    
+                </div>
+            </div>
+
+            <!-- second Project -->
+            <div class="project_card">
+                <div class="project_img">
+                    <img src="Projects/marketing agency landing page.png" alt="Marketing Agency landing page project">
+                </div>
+                <div class="project_info">
+                    <p class="project_name">Marketing Agency Landing Page</p>
+                    <strong class="project_category">
+                        <span>Landing Page</span>
+                        <a href="https://trkhassanin.github.io/Lab3-HTML-CSS/" class="project_more_info">More info</a>
+                    </strong>
+                    
+                </div>
+            </div>
+
+            <!-- third Project -->
+            <div class="project_card">
+                <div class="project_img">
+                    <img src="Projects/personal portfolio.png" alt="portfolio">
+                </div>
+                <div class="project_info">
+                    <p class="project_name">My Personal Portfolio</p>
+                    <strong class="project_category">
+                        <span>Landing Page</span>
+                        <a href="#" class="project_more_info">More info</a>
+                    </strong>
+                    
+                </div>
+            </div>
+
+            <!-- forth Project -->
+            <div class="project_card">
+                <div class="project_img">
+                    <img src="Projects/cloth ecommerce.png" alt="cloth ecommerce website">
+                </div>
+                <div class="project_info">
+                    <p class="project_name">Cloth E-commerce Website</p>
+                    <strong class="project_category">
+                        <span>E-commerce </span>
+                        <a href="#" class="project_more_info">More info</a>
+                    </strong>
+                    
+                </div>
+            </div>
+
+            <!-- fifth Project -->
+            <div class="project_card">
+                <div class="project_img">
+                    <img src="Projects/pet store.png" alt="pet store website">
+                </div>
+                <div class="project_info">
+                    <p class="project_name">Pet store</p>
+                    <strong class="project_category">
+                        <span>E-commerce</span>
+                        <a href="#" class="project_more_info">More info</a>
+                    </strong>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact_me" id="contact_me">
+        <h2 class="section_title">Contact Me</h2>
+        <div class="content">
+            <!-- card 1 - service 1 -->
+            <div class="card">
+                <!-- service_1 icon -->
+                <div class="contact_icon"><i class="fa-solid fa-phone"></i></i></div>
+                <!-- service_1 name -->
+                <h3 class="service_name" style="font-size: 1.5em;">+2-10-300-6787-0</h3>
+            </div>
+
+            <!-- card 2 - service 2 -->
+            <div class="card">
+                <!-- service_2 icon -->
+                <div class="contact_icon"><i class="fa-solid fa-envelope"></i></div>
+                <!-- service_2 name -->
+                <h3 class="service_name" style="font-size: 1.5em;">hassanin.trk@gmail.com</h3>
+            </div>
+
+    </section>
+
+     <footer class="footer">
+        <p class="footer_title">Copyrights @ <span>Tarek Refaat</span>
+        <div class="social_media_icons">
+            <a href="https://www.linkedin.com/in/tarek-refaat-9699122a7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/TrkHassanin"><i class="fa-brands fa-square-github"></i></a>
+            <a href="whats"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+
+     </footer>
+
+
 </body>
 </html>
